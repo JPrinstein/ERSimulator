@@ -1,0 +1,13 @@
+{
+  "hits": [
+    {
+      "target": "Self",
+      "buff": {
+        "name": "SerpentSkin"
+      }
+    }
+  ],
+  "cooldown": 0,
+  "check": "S1 5",
+  "trigger": "Start"
+}

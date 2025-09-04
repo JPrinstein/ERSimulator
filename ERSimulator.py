@@ -102,8 +102,8 @@ def chooseSkill(state):
     
 
     for i in range(2,-1,-1):
-        for filename in glob.glob("Skills\*json"):
-                if state.namesSorted[state.fighterIndex] in filename and (i+1) in filename:
+        for filename in glob.glob("Skills/*.json"):
+                if state.namesSorted[state.fighterIndex] in filename and str(i+1) in filename:
                     with open(filename, "r") as skill:
                         state.skillData = json.load(skill)
                         doesntExist = False
@@ -194,11 +194,11 @@ def attacking(state, targetedIndex):
     for i in range(len(state.skillData["hits"])):
         attack = state.skillData["hits"][i]
         if "damage" in attack:
-            attack(state, i)
+            ATTACK(state, i)
         elif "debuff" in attack:
-            CC(state, i)
+            DEBUFF(state, i)
         elif "buff" in attack:
-            buff(state, i)
+            BUFF(state, i)
     #Use for an attack
 
     state.healthSorted[targetedIndex] -= 5000
@@ -211,13 +211,13 @@ def attacking(state, targetedIndex):
         state.healthSorted[targetedIndex] = 0
         state.healthPercent[targetedIndex] = 0
 
-def attack(state, skillIndex):
+def ATTACK(state, skillIndex):
     print("Attacking!")
 
-def CC(state, skillIndex):
-    print("CCing!")
+def DEBUFF(state, skillIndex):
+    print("Debuffing!")
 
-def buff(state, skillIndex):
+def BUFF(state, skillIndex):
     print("Buffing!")
 
 def startFight(state):
