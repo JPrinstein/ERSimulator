@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 import inspect
 import random
+import glob
+import json
 
 
 class BattleState:
@@ -23,10 +25,12 @@ class BattleState:
         self.turnMeterRate = [None] * 12
         self.fighterIndex = None
 
-        self.skill_row = None
         self.skillNumber = None
+        self.skillData = None
 
         self.fighterCooldowns = [[0,0,0] if i<(number_of_fighters*2) else [None, None, None] for i in range(12)]
+
+
 
 def importCSV():
     sheet_id = "1cmbPkETCIo8i6ebUBcGbSzRuS7avwi49RwN90XZBL3s"
@@ -59,7 +63,8 @@ def selectFighters(dfs):
         fighterNumber += 1
     fighterNumber = 1
 
-    state = BattleState(dfs,teamOne,teamTwo,numberOfFighters)
+    state = BattleState(dfs,teamOne,teamTwo,numberOfFighters)\
+
     print_team_tables(state)
 
 def print_team_tables(state):
@@ -94,11 +99,20 @@ def nextTurn(state):
 
 def chooseSkill(state):
     print(f"Cooldowns for {state.namesSorted[state.fighterIndex]}(team {state.teamNumbers[state.fighterIndex]}): {state.fighterCooldowns[state.fighterIndex]}")
+    
+
     for i in range(2,-1,-1):
-        state.skill_row = state.dfs["Skills"][(state.dfs["Skills"]["Name"] == state.namesSorted[state.fighterIndex]) & (state.dfs["Skills"]["SkillNumber"] == int((i+1)))]
-        if state.fighterCooldowns[state.fighterIndex][i]  == 0 and not state.skill_row.empty:
+        for filename in glob.glob("*json"):
+                if state.namesSorted[state.fighterIndex] in filename and (i+1) in filename:
+                    with open(filename, "r") as skill:
+                        state.skillData = json.load(skill)
+                        doesntExist = False
+                else: 
+                    doesntExist = True
+        if state.fighterCooldowns[state.fighterIndex][i]  == 0 and doesntExist == False:
             state.skillNumber = i
-            cooldown = state.skill_row["Cooldown"].iloc[0]
+                    
+            cooldown = state.skillData["cooldown"]
             break
         
     print(f"{state.namesSorted[state.fighterIndex]}(team {state.teamNumbers[state.fighterIndex]}) is using skill {state.skillNumber + 1}")
@@ -177,13 +191,13 @@ def targeting(state):
 
 def attacking(state, targetedIndex):
 
-    for i in range(len(state.skill_row["Type"])):
-        attack_type = state.skill_row["Type"].iloc[i]
-        if attack_type == "Attack":
+    for i in range(len(state.skillData["hits"])):
+        attack = state.skillData["hits"][i]
+        if "damage" in attack:
             attack(state, i)
-        elif attack_type == "CC":
+        elif "debuff" in attack:
             CC(state, i)
-        elif attack_type == "Buff":
+        elif "buff" in attack:
             buff(state, i)
     #Use for an attack
 
