@@ -1,0 +1,30 @@
+{
+  "hits": [
+    {
+      "target": "Default",
+      "damage": {
+        "scaling": "ATK",
+        "multiplier": [200,220,220,240,240]
+      }
+    },
+    {
+      "debuff": {
+        "name": "STEALBUFF",
+        "chance": [10,10,20,20,30]
+      }
+    },
+    {
+      "damage": {
+        "scaling": "ATK",
+        "multiplier": [200,220,220,240,240]
+      }
+    },
+    {
+      "debuff": {
+        "name": "STEALBUFF",
+        "chance": [10,10,20,20,30]
+      }
+    }
+  ],
+  "cooldown": 0
+}

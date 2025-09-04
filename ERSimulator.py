@@ -102,7 +102,7 @@ def chooseSkill(state):
     
 
     for i in range(2,-1,-1):
-        for filename in glob.glob("*json"):
+        for filename in glob.glob("Skills\*json"):
                 if state.namesSorted[state.fighterIndex] in filename and (i+1) in filename:
                     with open(filename, "r") as skill:
                         state.skillData = json.load(skill)

@@ -1,0 +1,68 @@
+{
+  "hits": [
+    {
+      "target": "Self",
+      "buff": {
+        "name": "PURIFY",
+        "scaling": "COUNT",
+        "multiplier": [1,1,100,100,100]
+      }
+    },
+    {
+      "buff": {
+        "name": "CRATE",
+        "value": 30
+      }
+    },
+    {
+      "target": "AOE",
+      "damage": {
+        "scaling": "ATK",
+        "multiplier": [100,110,110,120,120]
+      }
+    },
+    {
+      "debuff": {
+        "name": "DEFDOWN",
+        "value": -60
+      }
+    },
+    {
+      "damage": {
+        "scaling": "ATK",
+        "multiplier": [100,110,110,120,120]
+      }
+    },
+    {
+      "debuff": {
+        "name": "DEFDOWN",
+        "value": -60
+      }
+    },
+    {
+      "damage": {
+        "scaling": "ATK",
+        "multiplier": [100,110,110,120,120]
+      }
+    },
+    {
+      "debuff": {
+        "name": "DEFDOWN",
+        "value": -60
+      }
+    },
+    {
+      "damage": {
+        "scaling": "ATK",
+        "multiplier": [200,220,220,240,240]
+      }
+    },
+    {
+      "debuff": {
+        "name": "STEALBUFF",
+        "chance": [10,10,20,20,30]
+      }
+    }
+  ],
+  "cooldown": 4
+}
