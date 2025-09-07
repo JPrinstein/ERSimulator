@@ -8,6 +8,9 @@
     }
   ],
   "cooldown": 0,
-  "check": "S1 5",
+  "check": {
+    "type": "S1",
+    "value": 5
+  },
   "trigger": "Start"
 }

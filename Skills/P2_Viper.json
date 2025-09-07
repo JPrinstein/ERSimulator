@@ -27,8 +27,10 @@
     }
   ],
   "cooldown": 0,
-  "check": "AllyOnCritted",
-  "condition": "False",
+  "check": {
+    "type": "AllyOnCritted",
+    "value": "False"
+  },
   "trigger": "EnemyAttack",
   "chance": 12
 }
