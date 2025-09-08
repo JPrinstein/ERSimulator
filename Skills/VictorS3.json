@@ -40,6 +40,5 @@
       }
     }
   ],
-  "cooldown": 0,
-  "CDDecrease": 6
+  "cooldown": 0
 }
