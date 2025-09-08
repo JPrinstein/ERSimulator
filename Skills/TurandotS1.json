@@ -1,0 +1,50 @@
+{
+  "hits": [
+    {
+      "target": "Default",
+      "damage": {
+        "scaling": "ATK",
+        "multiplier": [70,75,75,80,80]
+      }
+    },
+    {
+      "buff": {
+        "name": "ACCUP",
+        "value": 40,
+        "chance": [35,35,50,50,50],
+        "duration": [1,1,1,1,2]
+      }
+    },
+    {
+      "target": "Default",
+      "damage": {
+        "scaling": "ATK",
+        "multiplier": [70,75,75,80,80]
+      }
+    },
+    {
+      "buff": {
+        "name": "ACCUP",
+        "value": 40,
+        "chance": [35,35,50,50,50],
+        "duration": [1,1,1,1,2]
+      }
+    },
+    {
+      "target": "Default",
+      "damage": {
+        "scaling": "ATK",
+        "multiplier": [70,75,75,80,80]
+      }
+    },
+    {
+      "buff": {
+        "name": "ACCUP",
+        "value": 40,
+        "chance": [35,35,50,50,50],
+        "duration": [1,1,1,1,2]
+      }
+    }
+  ],
+  "cooldown": 0
+}

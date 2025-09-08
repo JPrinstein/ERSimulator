@@ -1,0 +1,17 @@
+{
+  "hits": [
+    {
+      "target": "Self",
+      "buff": {
+        "name": "HPBONUS",
+        "value": 3
+      }
+    }
+  ],
+  "cooldown": 0,
+  "check": {
+    "type": "S3",
+    "value": 4
+  },
+  "trigger": "Start"
+}

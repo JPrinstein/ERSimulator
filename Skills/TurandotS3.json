@@ -1,0 +1,19 @@
+{
+  "hits": [
+    {
+      "target": "AOE",
+      "buff": {
+        "name": "ATKUP",
+        "duration": 2
+      }
+    },
+    {
+      "buff": {
+        "name": "DEFUP",
+        "duration": 2
+      }
+    }
+  ],
+  "cooldown": 5,
+  "CDDecrease":[3,5]
+}
