@@ -1,0 +1,18 @@
+{
+  "hits": [
+    {
+      "target": "Self",
+      "buff": {
+        "name": "HEAL",
+        "multiplier": [30,30,50,50,70],
+        "originalValue": "totalDamage"
+      }
+    }
+  ],
+  "cooldown": 0,
+  "check": {
+    "type": "HPThreshold",
+    "value": 40
+  },
+  "trigger": "S1"
+}

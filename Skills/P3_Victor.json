@@ -1,0 +1,17 @@
+{
+  "hits": [
+    {
+      "target": "Self",
+      "buff": {
+        "name": "DMGINCREASE",
+        "multiplier": [91,18,27,36,45,54,63,72,81]
+      }
+    }
+  ],
+  "cooldown": 0,
+  "check": {
+    "type": "HPThreshold",
+    "value": [90,80,70,60,50,40,30,20,10]
+  },
+  "trigger": "Always"
+}

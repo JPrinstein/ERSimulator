@@ -1,0 +1,24 @@
+{
+  "hits": [
+    {
+      "target": "Default",
+      "damage": {
+        "scaling": "ATK",
+        "multiplier": [80,85,85,90,90]
+      }
+    },
+    {
+      "damage": {
+        "scaling": "ATK",
+        "multiplier": [80,85,85,90,90]
+      }
+    },
+    {
+      "damage": {
+        "scaling": "ATK",
+        "multiplier": [80,85,85,90,90]
+      }
+    }
+  ],
+  "cooldown": 0
+}

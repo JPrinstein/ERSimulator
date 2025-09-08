@@ -1,0 +1,17 @@
+{
+  "hits": [
+    {
+      "target": "Self",
+      "buff": {
+        "name": "DMGREDUCTION",
+        "multiplier": [6,12,18,24,30,36,42,48,54]
+      }
+    }
+  ],
+  "cooldown": 0,
+  "check": {
+    "type": "HPThreshold",
+    "value": [90,80,70,60,50,40,30,20,10]
+  },
+  "trigger": "Always"
+}

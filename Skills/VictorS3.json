@@ -1,0 +1,45 @@
+{
+  "hits": [
+    {
+      "target": "Self",
+      "debuff": {
+        "name": "TRUEDMG",
+        "multiplier": 40
+      }
+    },
+    {
+      "buff": {
+        "name": "SHIELD",
+        "multiplier": [28,28,36,36,44],
+        "originalValue": "maxHP"
+      }
+    },
+    {
+      "target": "Default",
+      "damage": {
+        "scaling": "ATK",
+        "multiplier": [90,10,100,110,110]
+      }
+    },
+    {
+      "damage": {
+        "scaling": "ATK",
+        "multiplier": [90,10,100,110,110]
+      }
+    },
+    {
+      "damage": {
+        "scaling": "ATK",
+        "multiplier": [90,10,100,110,110]
+      }
+    },
+    {
+      "damage": {
+        "scaling": "ATK",
+        "multiplier": [90,10,100,110,110]
+      }
+    }
+  ],
+  "cooldown": 0,
+  "CDDecrease": 6
+}
