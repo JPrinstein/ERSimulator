@@ -4,13 +4,13 @@
       "target": "Self",
       "debuff": {
         "name": "TRUEDMG",
-        "multiplier": 40
+        "value": 40
       }
     },
     {
       "buff": {
         "name": "SHIELD",
-        "multiplier": [28,28,36,36,44],
+        "value": [28,28,36,36,44],
         "originalValue": "maxHP"
       }
     },

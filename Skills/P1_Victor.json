@@ -4,7 +4,7 @@
       "target": "Self",
       "buff": {
         "name": "HEAL",
-        "multiplier": [30,30,50,50,70],
+        "value": [30,30,50,50,70],
         "originalValue": "totalDamage"
       }
     }

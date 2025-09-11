@@ -4,7 +4,7 @@
       "target": "AOE",
       "buff": {
         "name": "DMGREDUCTION",
-        "multiplier": [25,27,27,30,30],
+        "value": [25,27,27,30,30],
         "duration": 1
       }
     }
