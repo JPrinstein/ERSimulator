@@ -1,0 +1,11 @@
+{
+  "hits": [
+    {
+      "target": "Default",
+      "damage": {
+        "ATK": [200,220,220,240,240]
+      }
+    }
+  ],
+  "cooldown": 0
+}

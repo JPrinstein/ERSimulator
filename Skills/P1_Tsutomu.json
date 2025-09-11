@@ -1,0 +1,21 @@
+{
+  "hits": [
+    {
+      "target": "Default",
+      "debuff": {
+        "name": "WOUND",
+        "duration": 2
+      }
+    },
+    {
+      "debuff": {
+        "name": "BLOCK",
+        "duration": 2
+      }
+    }
+  ],
+  "cooldown": 0,
+  "check": "OnCrit",
+  "trigger": "S3",
+  "chance": [70,70,80,80,100]
+}

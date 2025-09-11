@@ -1,0 +1,30 @@
+{
+  "hits": [
+    {
+      "target": "Default",
+      "damage": {
+        "ATK": [180,190,190,200,200]
+      }
+    },
+    {
+      "debuff": {
+        "name": "STEALBUFF",
+        "chance": [60,60,80,80,80]
+      }
+    },
+    {
+      "target": "Default",
+      "damage": {
+        "ATK": [180,190,190,200,200]
+      }
+    },
+    {
+      "debuff": {
+        "name": "STEALBUFF",
+        "chance": [60,60,80,80,80]
+      }
+    }
+  ],
+  "cooldown": 4,
+  "CDDecrease": 5
+}
