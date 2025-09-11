@@ -3,7 +3,8 @@
     {
       "target": "Default",
       "damage": {
-        "ATK": [200,220,220,240,240]
+        "scaling": "ATK",
+        "multiplier": [200,220,220,240,240]
       }
     },
     {
@@ -13,14 +14,11 @@
       }
     },
     {
-      "damage": {
-        "ATK": [200,220,220,240,240]
-      }
-    },
-    {
-      "debuff": {
-        "name": "STEALBUFF",
-        "chance": [10,10,20,20,30]
+      "target": "Self",
+      "buff": {
+        "name": "PURIFY",
+        "scaling": "COUNT",
+        "multiplier": [1,1,100,100,100]
       }
     }
   ],

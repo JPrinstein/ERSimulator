@@ -3,8 +3,7 @@
     {
       "target": "Default",
       "damage": {
-        "scaling": "ATK",
-        "multiplier": [60,70,70,70,70]
+        "ATK": [60,70,70,70,70]
       }
     },
     {
@@ -23,8 +22,7 @@
     {
       "target": "Default",
       "damage": {
-        "scaling": "ATK",
-        "multiplier": [60,70,70,70,70]
+        "ATK": [60,70,70,70,70]
       }
     },
     {
@@ -43,8 +41,7 @@
     {
       "target": "Default",
       "damage": {
-        "scaling": "ATK",
-        "multiplier": [60,70,70,70,70]
+        "ATK": [60,70,70,70,70]
       }
     },
     {
@@ -63,8 +60,7 @@
     {
       "target": "Default",
       "damage": {
-        "scaling": "ATK",
-        "multiplier": [60,70,70,70,70]
+        "ATK": [60,70,70,70,70]
       }
     },
     {

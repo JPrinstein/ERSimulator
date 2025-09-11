@@ -3,8 +3,7 @@
     {
       "target": "Default",
       "damage": {
-        "scaling": "ATK",
-        "multiplier": [70,75,75,80,80]
+        "ATK": [70,75,75,80,80]
       }
     },
     {
@@ -18,8 +17,7 @@
     {
       "target": "Default",
       "damage": {
-        "scaling": "ATK",
-        "multiplier": [70,75,75,80,80]
+        "ATK": [70,75,75,80,80]
       }
     },
     {
@@ -33,8 +31,7 @@
     {
       "target": "Default",
       "damage": {
-        "scaling": "ATK",
-        "multiplier": [70,75,75,80,80]
+        "ATK": [70,75,75,80,80]
       }
     },
     {

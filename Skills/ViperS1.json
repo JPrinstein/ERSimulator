@@ -3,14 +3,12 @@
     {
       "target": "Default",
       "damage": {
-        "scaling": "ATK",
-        "multiplier": [110,120,120,130,130]
+        "ATK": [110,120,120,130,130]
       }
     },
     {
       "damage": {
-        "scaling": "ATK",
-        "multiplier": [110,120,120,130,130]
+        "ATK": [110,120,120,130,130]
       }
     },
     {
