@@ -1,0 +1,14 @@
+{
+  "hits": [
+    {
+      "target": "Default",
+      "debuff": {
+        "name": "TURNMETER",
+        "value": 30
+      }
+    }
+  ],
+  "cooldown": 0,
+  "check": "OnDebuff",
+  "trigger": "S3"
+}

@@ -26,6 +26,6 @@
   ],
   "cooldown": 0,
   "check": "AllyOnCritted",
-  "trigger": "EnemyAttack",
+  "trigger": "Always",
   "chance": 60
 }

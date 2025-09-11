@@ -1,0 +1,20 @@
+{
+  "hits": [
+    {
+      "target": "Self",
+      "buff": {
+        "name": "HEAL",
+        "value": 25
+      }
+    },
+    {
+      "buff": {
+        "name": "PURIFY",
+        "count": 1
+      }
+    }
+  ],
+  "cooldown": 0,
+  "check": "OnDebuff",
+  "trigger": "Always"
+}

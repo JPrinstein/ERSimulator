@@ -29,6 +29,6 @@
     "type": "AllyOnCritted",
     "value": "False"
   },
-  "trigger": "EnemyAttack",
+  "trigger": "Always",
   "chance": 12
 }

@@ -1,0 +1,25 @@
+{
+  "hits": [
+    {
+      "target": "AOE",
+      "damage": {
+        "ATK": 120
+      }
+    },
+    {
+      "damage": {
+        "ATK": [12,15,15,15,15],
+        "originalValue": "health"
+      }
+    },
+    {
+      "debuff": {
+        "name": "ATKDOWN",
+        "chance": [50,50,50,65,65],
+        "duration": [1,1,2,2,2]
+      }
+    }
+  ],
+  "cooldown": 4,
+  "CDDecrease": 5
+}

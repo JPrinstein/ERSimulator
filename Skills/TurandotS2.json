@@ -20,7 +20,6 @@
       }
     },
     {
-      "target": "Default",
       "damage": {
         "ATK": [60,70,70,70,70]
       }
@@ -39,7 +38,6 @@
       }
     },
     {
-      "target": "Default",
       "damage": {
         "ATK": [60,70,70,70,70]
       }
@@ -58,7 +56,6 @@
       }
     },
     {
-      "target": "Default",
       "damage": {
         "ATK": [60,70,70,70,70]
       }
