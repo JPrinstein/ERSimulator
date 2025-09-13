@@ -1,0 +1,33 @@
+{
+  "hits": [
+    {
+      "target": "Self",
+      "buff": {
+        "name": "SPDUP",
+        "value":30,
+        "duration": 2
+      }
+    },
+    {
+      "buff": {
+        "name": "finalDamageUp",
+        "value":[0.2,0.2,0.3,0.3,0.3],
+        "originalValue": "SPD"
+      }
+    },
+    {
+      "target": "Default",
+      "damage": {
+        "ATK": [130,140,140,150,150]
+      }
+    },
+    {
+      "target": "Default",
+      "damage": {
+        "ATK": [130,140,140,150,150]
+      }
+    }
+  ],
+  "cooldown": 4,
+  "CDDecrease": 5
+}

@@ -1,0 +1,27 @@
+{
+  "hits": [
+    {
+      "target": "Self",
+      "buff": {
+        "name": "finalDamageUp",
+        "value":[0.2,0.2,0.25,0.25,0.35],
+        "originalValue": "SPD"
+      }
+    },
+    {
+      "target": "Default",
+      "damage": {
+        "ATK": [240,260,260,260,260]
+      }
+    },
+    {
+      "debuff": {
+        "name": "SPDDOWN",
+        "value": 30,
+        "duration": 2,
+        "chance": [50,50,50,70,70]
+      }
+    }
+  ],
+  "cooldown": 3
+}
