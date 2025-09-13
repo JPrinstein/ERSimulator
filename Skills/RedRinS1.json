@@ -1,0 +1,40 @@
+{
+  "hits": [
+    {
+      "target": "Default",
+      "damage": {
+        "ATK": 80
+      }
+    },
+    {
+      "debuff": {
+        "name": "TAUNT",
+        "chance": [10,10,15,15,25]
+      }
+    },
+    {
+      "damage": {
+        "ATK": 80
+      }
+    },
+    {
+      "debuff": {
+        "name": "TAUNT",
+        "chance": [10,10,15,15,25]
+      }
+    },
+    {
+      "damage": {
+        "ATK": [30,35,35,40,40],
+        "originalValue": "defense"
+      }
+    },
+    {
+      "debuff": {
+        "name": "TAUNT",
+        "chance": [10,10,15,15,25]
+      }
+    }
+  ],
+  "cooldown": 0
+}

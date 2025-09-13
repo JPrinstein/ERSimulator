@@ -1,0 +1,20 @@
+{
+  "hits": [
+    {
+      "target": "AOE",
+      "buff": {
+        "name": "DEFUP",
+        "duration": 2
+      }
+    },
+    {
+      "buff": {
+        "name": "SHIELD",
+        "value": [210,240,270,300,300],
+        "originalValue": "defense"
+      }
+    }
+  ],
+  "cooldown": 4,
+  "CDDecrease": 5
+}

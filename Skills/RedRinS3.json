@@ -1,0 +1,31 @@
+{
+  "hits": [
+    {
+      "target": "AOE",
+      "damage": {
+        "ATK": 160
+      }
+    },
+    {
+      "damage": {
+        "ATK": [60,75,75,75,75],
+        "originalValue": "defense"
+      }
+    },
+    {
+      "debuff": {
+        "name": "TAUNT",
+        "chance": [60,60,75,75,75]
+      }
+    },
+    {
+      "debuff": {
+        "name": "ATKDOWN",
+        "chance": [60,60,75,75,75],
+        "duration": [1,1,1,2,2]
+      }
+    }
+  ],
+  "cooldown": 5,
+  "CDDecrease": 5
+}
